@@ -12,7 +12,7 @@
 #include "secondwindowdialog.h"
 #include "questiondialog.h"
 #include <ui_mainwindow.h>
-#include "logindialog.h"
+//#include "logindialog.h"
 //#include <cmrc/cmrc.hpp>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -24,12 +24,12 @@ MainWindow::MainWindow(QWidget *parent)
         startUpTest.setModal(true);
         startUpTest.exec();
     }
-    if(startUpTest.isWorker == false)
+    if(startUpTest.isWorker == false && startUpTest.loginOK == true)
     {
         ui->setupUi(this);
         presetProfileImage_Main();
     }
-    else if(startUpTest.isWorker == true)
+    else if(startUpTest.isWorker == true && startUpTest.loginOK == true)
     {
         openWorkerHome.setModal(true);
         openWorkerHome.exec();
