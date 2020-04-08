@@ -1,7 +1,6 @@
 *~
 *.db
 *.autosave
-build*/*
 .DS_Store
 CMakeLists.txt.user
 wt.tags
