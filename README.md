@@ -6,6 +6,8 @@ KKOGSK.exe / KKOGSK (Application file)
 
 Until I build a workaround, Visual Studio 2017 or later needs to be installed on the computer to run the application.
 
+Working on the script CMakeRC.cmake to integrate images files as resource files with CMake project - Image files are loaded with local path until script is running on the program so you won't get up the image files while running the application. I hope to achive this within the coming days, sorry for the inconvenience.
+
 
 What is Wt ?
 ------------
