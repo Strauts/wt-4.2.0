@@ -1,3 +1,9 @@
+To run application go to 
+wt-4.2.0-master\build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug\KKOGSK 
+
+Run the file KKOGSK.exe / KKOGSK (Application file)
+
+
 What is Wt ?
 ------------
 
