@@ -309,6 +309,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="secondwindowdialog.ui" line="20"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="secondwindowdialog.ui" line="27"/>
         <source>Angi svar</source>
         <translation type="unfinished"></translation>
@@ -316,11 +321,6 @@
     <message>
         <location filename="secondwindowdialog.ui" line="34"/>
         <source>Gå tilbake</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="secondwindowdialog.ui" line="20"/>
-        <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -367,7 +367,6 @@
     <message>
         <location filename="calenderdialog.ui" line="49"/>
         <source>Gå tilbake</source>
-        <oldsource>Tilbake</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>

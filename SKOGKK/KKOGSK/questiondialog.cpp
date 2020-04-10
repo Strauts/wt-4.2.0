@@ -31,22 +31,22 @@ void QuestionDialog::setupImage()
 {
     test = 0;
     this->setWindowTitle("Hvem har sex?");
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0292.PNG");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0292.PNG");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0293.PNG");
+    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0293.PNG");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0294.PNG");
+    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0294.PNG");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0295.PNG");
+    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0295.PNG");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -56,22 +56,22 @@ void QuestionDialog::setupImage_2()
 {
     test = 1;
     this->setWindowTitle("Hvem er trist?");
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Glad_fjes.GIF");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Glad_fjes.GIF");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Sinna_fjes.GIF");
+    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Sinna_fjes.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Noytral_fjes.GIF");
+    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Noytral_fjes.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tris_ansikt.GIF");
+    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tris_ansikt.GIF");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -81,22 +81,22 @@ void QuestionDialog::setupImage_3()
 {
     test = 2;
     this->setWindowTitle("Hvem er kvinne?");
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_bestemor.GIF");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_bestemor.GIF");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_jente.GIF");
+    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_jente.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_kvinne.GIF");
+    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_kvinne.GIF");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_mann2.GIF");
+    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_mann2.GIF");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -106,22 +106,22 @@ void QuestionDialog::setupImage_4()
 {
     test = 3;
     this->setWindowTitle("Hva kan du gjøre for å hjelpe noen som føler seg trist?");
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/SepaaTV.GIF");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/SepaaTV.GIF");
     ui->label_1->setPixmap(pix);
     ui->label_1->setScaledContents(true);
     ui->label_1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tapaarompe.GIF");
+    QPixmap pix2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tapaarompe.GIF");
     ui->label_2->setPixmap(pix2);
     ui->label_2->setScaledContents(true);
     ui->label_2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/KjoresteKlem.gif");
+    QPixmap pix3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/KjoresteKlem.gif");
     ui->label_3->setPixmap(pix3);
     ui->label_3->setScaledContents(true);
     ui->label_3->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 
-    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tapaapupper.GIF");
+    QPixmap pix4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tapaapupper.GIF");
     ui->label_4->setPixmap(pix4);
     ui->label_4->setScaledContents(true);
     ui->label_4->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

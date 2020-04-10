@@ -100,7 +100,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::presetProfileImage_Main()
 {
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Glad_fjes.GIF");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Glad_fjes.GIF");
     ui->label_profilePicture_Main->setPixmap(pix);
     ui->label_profilePicture_Main->setScaledContents(true);
     ui->label_profilePicture_Main->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

@@ -24,8 +24,8 @@ void SecondWindowDialog::setUpGif()
     if(nextQuestion == 0)
     {
         this->setWindowTitle("Hvem har sex?");
-        QPixmap pixSex1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0292.PNG");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0288.GIF");
+        QPixmap pixSex1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0292.PNG");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0288.GIF");
         ui->label->setPixmap(pixSex1);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -36,8 +36,8 @@ void SecondWindowDialog::setUpGif()
     else if(nextQuestion == 1)
     {
         this->setWindowTitle("Hvem er trist?");
-        QPixmap pixTrist1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Glad_fjes.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Glad_fjes.GIF");
+        QPixmap pixTrist1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Glad_fjes.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Glad_fjes.GIF");
         ui->label->setPixmap(pixTrist1);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -48,8 +48,8 @@ void SecondWindowDialog::setUpGif()
     else if(nextQuestion == 2)
     {
         this->setWindowTitle("Hvem er kvinne?");
-        QPixmap pixKvinne1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_bestemor.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_bestemor.GIF");
+        QPixmap pixKvinne1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_bestemor.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_bestemor.GIF");
         ui->label->setPixmap(pixKvinne1);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -60,8 +60,8 @@ void SecondWindowDialog::setUpGif()
     else if(nextQuestion == 3)
     {
         this->setWindowTitle("Hva kan du gjøre for å hjelpe noen som føler seg trist?");
-        QPixmap pixHjelpe1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/SepaaTV.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/SepaaTV.GIF");
+        QPixmap pixHjelpe1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/SepaaTV.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/SepaaTV.GIF");
         ui->label->setPixmap(pixHjelpe1);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -72,8 +72,8 @@ void SecondWindowDialog::setUpGif()
     else if(nextQuestion == 4)
     {
         this->setWindowTitle("Hva kan du gjøre for å ikke bli gravid?");
-        QPixmap pixGravid1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/P-PillerFarget.mp4");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/P-PillerFarget.mp4");
+        QPixmap pixGravid1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/P-PillerFarget.mp4");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/P-PillerFarget.mp4");
         ui->label->setPixmap(pixGravid1);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -88,8 +88,8 @@ void SecondWindowDialog::setUpGif_2()
     if(nextQuestion == 0)
     {
         this->setWindowTitle("Hvem har sex?");
-        QPixmap pixSex2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0293.PNG");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0289.GIF");
+        QPixmap pixSex2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0293.PNG");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0289.GIF");
         ui->label->setPixmap(pixSex2);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -100,8 +100,8 @@ void SecondWindowDialog::setUpGif_2()
     else if(nextQuestion == 1)
     {
         this->setWindowTitle("Hvem er trist?");
-        QPixmap pixTrist2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Sinna_fjes.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Sinna_fjes.GIF");
+        QPixmap pixTrist2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Sinna_fjes.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Sinna_fjes.GIF");
         ui->label->setPixmap(pixTrist2);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -112,8 +112,8 @@ void SecondWindowDialog::setUpGif_2()
     else if(nextQuestion == 2)
     {
         this->setWindowTitle("Hvem er kvinne?");
-        QPixmap pixKvinne2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_jente.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_jente.GIF");
+        QPixmap pixKvinne2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_jente.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_jente.GIF");
         ui->label->setPixmap(pixKvinne2);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -124,8 +124,8 @@ void SecondWindowDialog::setUpGif_2()
     else if(nextQuestion == 3)
     {
         this->setWindowTitle("Hva kan du gjøre for å hjelpe noen som føler seg trist?");
-        QPixmap pixHjelpe2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tapaarompe.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tapaarompe.GIF");
+        QPixmap pixHjelpe2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tapaarompe.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tapaarompe.GIF");
         ui->label->setPixmap(pixHjelpe2);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -136,8 +136,8 @@ void SecondWindowDialog::setUpGif_2()
     else if(nextQuestion == 4)
     {
         this->setWindowTitle("Hva kan du gjøre for å ikke bli gravid?");
-        QPixmap pixGravid2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Sproyte.mp4");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Sproyte.mp4");
+        QPixmap pixGravid2("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Sproyte.mp4");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Sproyte.mp4");
         ui->label->setPixmap(pixGravid2);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -152,8 +152,8 @@ void SecondWindowDialog::setUpGif_3()
     if(nextQuestion == 0)
     {
         this->setWindowTitle("Hvem har sex?");
-        QPixmap pixSex3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0294.PNG");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0290.GIF");
+        QPixmap pixSex3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0294.PNG");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0290.GIF");
         ui->label->setPixmap(pixSex3);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -164,8 +164,8 @@ void SecondWindowDialog::setUpGif_3()
     else if(nextQuestion == 1)
     {
         this->setWindowTitle("Hvem er trist?");
-        QPixmap pixTrist3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Noytral_fjes.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Noytral_fjes.GIF");
+        QPixmap pixTrist3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Noytral_fjes.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Noytral_fjes.GIF");
         ui->label->setPixmap(pixTrist3);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -176,8 +176,8 @@ void SecondWindowDialog::setUpGif_3()
     else if(nextQuestion == 2)
     {
         this->setWindowTitle("Hvem er kvinne?");
-        QPixmap pixKvinne3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_kvinne.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_kvinne.GIF");
+        QPixmap pixKvinne3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_kvinne.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_kvinne.GIF");
         ui->label->setPixmap(pixKvinne3);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -188,8 +188,8 @@ void SecondWindowDialog::setUpGif_3()
     else if(nextQuestion == 3)
     {
         this->setWindowTitle("Hva kan du gjøre for å hjelpe noen som føler seg trist?");
-        QPixmap pixHjelpe3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/KjoresteKlem.gif");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/KjoresteKlem.gif");
+        QPixmap pixHjelpe3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/KjoresteKlem.gif");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/KjoresteKlem.gif");
         ui->label->setPixmap(pixHjelpe3);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -200,8 +200,8 @@ void SecondWindowDialog::setUpGif_3()
     else if(nextQuestion == 4)
     {
         this->setWindowTitle("Hva kan du gjøre for å ikke bli gravid?");
-        QPixmap pixGravid3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tannkrem.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tannkrem.GIF");
+        QPixmap pixGravid3("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tannkrem.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tannkrem.GIF");
         ui->label->setPixmap(pixGravid3);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -216,8 +216,8 @@ void SecondWindowDialog::setUpGif_4()
     if(nextQuestion == 0)
     {
         this->setWindowTitle("Hvem har sex?");
-        QPixmap pixSex4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0295.PNG");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0291.GIF");
+        QPixmap pixSex4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0295.PNG");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0291.GIF");
         ui->label->setPixmap(pixSex4);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -228,8 +228,8 @@ void SecondWindowDialog::setUpGif_4()
     else if(nextQuestion == 1)
     {
         this->setWindowTitle("Hvem er trist?");
-        QPixmap pixTrist4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Trist_ansikt.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tris_ansikt.GIF");
+        QPixmap pixTrist4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Trist_ansikt.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tris_ansikt.GIF");
         ui->label->setPixmap(pixTrist4);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -240,8 +240,8 @@ void SecondWindowDialog::setUpGif_4()
     else if(nextQuestion == 2)
     {
         this->setWindowTitle("Hvem er kvinne?");
-        QPixmap pixKvinne4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_mann2.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Naken_mann2.GIF");
+        QPixmap pixKvinne4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_mann2.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Naken_mann2.GIF");
         ui->label->setPixmap(pixKvinne4);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -252,8 +252,8 @@ void SecondWindowDialog::setUpGif_4()
     else if(nextQuestion == 3)
     {
         this->setWindowTitle("Hva kan du gjøre for å hjelpe noen som føler seg trist?");
-        QPixmap pixHjelpe4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tapaapupper.GIF");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Tapaapupper.GIF");
+        QPixmap pixHjelpe4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tapaapupper.GIF");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Tapaapupper.GIF");
         ui->label->setPixmap(pixHjelpe4);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -264,8 +264,8 @@ void SecondWindowDialog::setUpGif_4()
     else if(nextQuestion == 4)
     {
         this->setWindowTitle("Hva kan du gjøre for å ikke bli gravid?");
-        QPixmap pixGravid4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Libresse.mp4");
-        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Libresse.mp4");
+        QPixmap pixGravid4("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Libresse.mp4");
+        QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Libresse.mp4");
         ui->label->setPixmap(pixGravid4);
         ui->label->setScaledContents(true);
         ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

@@ -16,7 +16,7 @@ calenderDialog::~calenderDialog()
 
 void calenderDialog::presetCalenderPicture()
 {
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/IMG_0294.PNG");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/IMG_0294.PNG");
     ui->label_Calender_Picture->setPixmap(pix);
     ui->label_Calender_Picture->setScaledContents(true);
     ui->label_Calender_Picture->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

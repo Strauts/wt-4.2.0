@@ -15,7 +15,7 @@ patientInformationDialog::~patientInformationDialog()
 
 void patientInformationDialog::presetPatientInformationPic()
 {
-    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Glad_fjes.GIF");
+    QPixmap pix("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/Glad_fjes.GIF");
     ui->label->setPixmap(pix);
     ui->label->setScaledContents(true);
     ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

@@ -20,8 +20,8 @@ avatarDialog::~avatarDialog()
 
 void avatarDialog::presetAvatar()
 {
-    QPixmap pixSex1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/dog.jpg");
-    QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/dog.jpg");
+    QPixmap pixSex1("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/dog.jpg");
+    QMovie *movie = new QMovie("D:/Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Assets/Pictures/dog.jpg");
     ui->label->setPixmap(pixSex1);
     ui->label->setScaledContents(true);
     ui->label->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);

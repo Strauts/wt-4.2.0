@@ -6,11 +6,20 @@ homepageDialog::homepageDialog(QWidget *parent) :
     ui(new Ui::homepageDialog)
 {
     ui->setupUi(this);
+    presetProfileImage_Main();
 }
 
 homepageDialog::~homepageDialog()
 {
     delete ui;
+}
+
+void homepageDialog::presetProfileImage_Main()
+{
+    QPixmap pix("D:Bachelor/wt-4.2.0/SKOGKK/KKOGSK/Pictures/Assets/Glad_fjes.GIF");
+    ui->label_profilePicture_Main->setPixmap(pix);
+    ui->label_profilePicture_Main->setScaledContents(true);
+    ui->label_profilePicture_Main->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
 }
 
 void homepageDialog::on_pushButton_Profile_clicked()
