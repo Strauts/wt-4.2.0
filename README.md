@@ -1,3 +1,7 @@
+NEW REPOSITORY: AppDeployment - New link in Game Testing 2 work dokument
+Reason: Issues with uploading big file with Github
+
+
 To run application go to:
 wt-4.2.0-master/build-SKOGKK-Desktop_Qt_5_13_0_MSVC2017_64bit-Debug/KKOGSK 
 
